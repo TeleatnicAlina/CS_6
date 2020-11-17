@@ -15,14 +15,14 @@ public class Hook {
     @Before
     public static void setupWebDriver() {
         WebDriver singleton = getDriver();
-        singleton.get(url);
+       singleton.get(url);
         singleton.manage().window().maximize();
     }
 
-    @AfterStep
-    public void afterStep(Scenario scenario) {
-        Screenshot.screenshot(getDriver(), scenario);
-    }
+//    @AfterStep
+//    public void afterStep(Scenario scenario) {
+//        Screenshot.screenshot(getDriver(), scenario);
+//    }
 
     @AfterAll
     public static void closeDriver() {

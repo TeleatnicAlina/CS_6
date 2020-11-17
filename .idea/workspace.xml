@@ -6,14 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f175f651-6419-4108-93ff-6f75957a62b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/TestRunnerGooglePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/page_objects/GoogleHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GoogleSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atf/src/test/resources/features/lab_7/AccessGoogle.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atf/src/test/resources/features/lab_7/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atf/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/atf/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/page_objects/ElliteShoppyHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/page_objects/ElliteShoppyHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/page_objects/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/page_objects/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/page_objects/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/page_objects/SignUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/CartSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GenericActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GenericActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/hooks/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atf/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atf/src/test/resources/features/lab_6/AccessSocialMedia.feature" beforeDir="false" afterPath="$PROJECT_DIR$/atf/src/test/resources/features/lab_6/SocialMedia.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,28 +46,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../6/LastUpdate/CS_6/CS_ATF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../SI/Laboratoare/4/chat" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\UTM\Anul 4\CS\Laboratoare\5\CS_ATF\end-game-atf\src\main\java\com\endava" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\UTM\Anul 4\CS\Laboratoare\5\CS_ATF\atf\src\test\resources\drivers" />
       <recent name="D:\UTM\Anul 4\CS\Laboratoare\5\CS_ATF\end-game-atf\src\test\resources\drivers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UTM\Anul 4\CS\Laboratoare\5\CS_ATF\atf\src\test\resources\features" />
+      <recent name="D:\UTM\Anul 4\CS\Laboratoare\5\CS_ATF\end-game-atf\src\main\java\com\endava" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Anonymous user can delete products from cart (1)">
-    <configuration name="Scenario: Anonymous user can delete products from cart (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User can access google page by entering url in URL box">
+    <configuration name="Scenario: Check how many results display on a single page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/atf/src/test/resources/features/lab_6/CartTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/atf/src/test/resources/features/lab_7/Search.feature" />
       <option name="GLUE" value="com.utm.end_game.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="lab_5" />
-      <option name="NAME_FILTER" value="^Anonymous user can delete products from cart$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Anonymous user can delete products from cart$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Anonymous user can delete products from cart" />
+      <option name="NAME_FILTER" value="^Check how many results display on a single page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check how many results display on a single page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check how many results display on a single page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -74,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Anonymous user can delete products from cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Nothing is happening if user enters nothing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/atf/src/test/resources/features/lab_3/CartTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/atf/src/test/resources/features/lab_7/SearchIrelevant.feature" />
       <option name="GLUE" value="com.utm.end_game.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="lab_5" />
-      <option name="NAME_FILTER" value="^Anonymous user can delete products from cart$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Anonymous user can delete products from cart$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Anonymous user can delete products from cart" />
+      <option name="NAME_FILTER" value="^Nothing is happening if user enters nothing$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Nothing is happening if user enters nothing$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Nothing is happening if user enters nothing" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -94,15 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Anonymous user is able to contact store representatives using [Contact Form] (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User can access google page by entering url in URL box" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/atf/src/test/resources/features/lab_3/CartTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/atf/src/test/resources/features/lab_7/AccessGoogle.feature" />
       <option name="GLUE" value="com.utm.end_game.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="lab_5" />
-      <option name="NAME_FILTER" value="^Anonymous user is able to contact store representatives using \[Contact Form\]$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Anonymous user is able to contact store representatives using \[Contact Form\]$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Anonymous user is able to contact store representatives using [Contact Form]" />
+      <option name="NAME_FILTER" value="^User can access google page by entering url in URL box$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can access google page by entering url in URL box$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can access google page by entering url in URL box" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -114,15 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Anonymous user is able to contact store representatives using [Contact Form]" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: &quot;Did you mean link appear&quot; if user search for irrelevant" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/atf/src/test/resources/features/lab_3/ContactForm.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/atf/src/test/resources/features/lab_7/SearchIrelevant.feature" />
       <option name="GLUE" value="com.utm.end_game.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="lab_5" />
-      <option name="NAME_FILTER" value="^Anonymous user is able to contact store representatives using \[Contact Form\]$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Anonymous user is able to contact store representatives using \[Contact Form\]$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Anonymous user is able to contact store representatives using [Contact Form]" />
+      <option name="NAME_FILTER" value="^\&quot;Did you mean link appear\&quot; if user search for irrelevant$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\&quot;Did you mean link appear\&quot; if user search for irrelevant$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: &quot;Did you mean link appear&quot; if user search for irrelevant" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunnerGooglePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_5" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +149,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.utm.end_game" />
-      <option name="MAIN_CLASS_NAME" value="com.utm.end_game.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.utm.end_game.TestRunnerGooglePage" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Anonymous user can delete products from cart (1)" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Anonymous user can delete products from cart" />
-        <item itemvalue="Cucumber Java.Scenario: Anonymous user is able to contact store representatives using [Contact Form] (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Anonymous user is able to contact store representatives using [Contact Form]" />
+        <item itemvalue="Cucumber Java.Scenario: User can access google page by entering url in URL box" />
+        <item itemvalue="JUnit.TestRunnerGooglePage" />
+        <item itemvalue="Cucumber Java.Scenario: Check how many results display on a single page" />
+        <item itemvalue="Cucumber Java.Scenario: Nothing is happening if user enters nothing" />
+        <item itemvalue="Cucumber Java.Scenario: &quot;Did you mean link appear&quot; if user search for irrelevant" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605642893149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added BDD scenarios">
+      <created>1605723751327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605723751327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,54 +223,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added BDD scenarios" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605553415661">
+    <state x="527" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606478185102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="527" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1605553415661" />
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1605720313280">
+    <state x="527" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606478185102" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1606480677125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605720313280" />
-    <state x="914" y="230" key="#xdebugger.evaluate" timestamp="1605638623526">
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606480677125" />
+    <state x="366" y="135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606474827017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="914" y="230" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1605638623526" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605641712270">
+    <state x="366" y="135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1606474827017" />
+    <state x="519" y="174" key="#xdebugger.evaluate" timestamp="1606481776471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605641712270" />
-    <state width="1493" height="69" key="GridCell.Tab.0.bottom" timestamp="1605720342470">
+    <state x="519" y="174" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1606481776471" />
+    <state width="562" height="438" key="DebuggerActiveHint" timestamp="1606481558770">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="69" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605720342470" />
-    <state width="1493" height="69" key="GridCell.Tab.0.center" timestamp="1605720342470">
+    <state width="562" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1606481558770" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605727601238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="69" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605720342470" />
-    <state width="1493" height="69" key="GridCell.Tab.0.left" timestamp="1605720342470">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605727601238" />
+    <state width="1537" height="248" key="GridCell.Tab.0.bottom" timestamp="1606482293715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="69" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605720342470" />
-    <state width="1493" height="69" key="GridCell.Tab.0.right" timestamp="1605720342470">
+    <state width="1537" height="248" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606482293715" />
+    <state width="1537" height="248" key="GridCell.Tab.0.center" timestamp="1606482293715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="69" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605720342470" />
-    <state width="1493" height="428" key="GridCell.Tab.1.bottom" timestamp="1605638980243">
+    <state width="1537" height="248" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606482293715" />
+    <state width="1537" height="248" key="GridCell.Tab.0.left" timestamp="1606482293715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="428" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605638980243" />
-    <state width="1493" height="428" key="GridCell.Tab.1.center" timestamp="1605638980243">
+    <state width="1537" height="248" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606482293715" />
+    <state width="1537" height="248" key="GridCell.Tab.0.right" timestamp="1606482293715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="428" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605638980243" />
-    <state width="1493" height="428" key="GridCell.Tab.1.left" timestamp="1605638980243">
+    <state width="1537" height="248" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606482293715" />
+    <state width="1537" height="175" key="GridCell.Tab.1.bottom" timestamp="1606481819720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="428" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605638980243" />
-    <state width="1493" height="428" key="GridCell.Tab.1.right" timestamp="1605638980243">
+    <state width="1537" height="175" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606481819720" />
+    <state width="1537" height="175" key="GridCell.Tab.1.center" timestamp="1606481819720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="428" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605638980243" />
+    <state width="1537" height="175" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606481819720" />
+    <state width="1537" height="175" key="GridCell.Tab.1.left" timestamp="1606481819720">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="175" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606481819720" />
+    <state width="1537" height="175" key="GridCell.Tab.1.right" timestamp="1606481819720">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="175" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606481819720" />
+    <state x="650" y="278" width="385" height="267" key="MultipleFileMergeDialog" timestamp="1605723822634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="650" y="278" width="385" height="267" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605723822634" />
     <state x="545" y="114" key="RollbackChangesDialog" timestamp="1605719857197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,18 +291,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605639313852" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605642899426">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605723837563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605642899426" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605723837563" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605641546064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605641546064" />
-    <state x="478" y="145" width="866" height="558" key="find.popup" timestamp="1605720302680">
+    <state x="478" y="145" width="866" height="558" key="find.popup" timestamp="1606476959407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="866" height="558" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1605720302680" />
+    <state x="478" y="145" width="866" height="558" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606476959407" />
     <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605642837062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -286,10 +311,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604679995436" />
-    <state x="521" y="333" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1605719617574">
+    <state x="521" y="333" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1606475135075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="521" y="333" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1605719617574" />
+    <state x="521" y="333" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606475135075" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1605468303674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -300,48 +325,48 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java</url>
-          <line>39</line>
+          <line>38</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java</url>
-          <line>47</line>
+          <line>46</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GeneralSteps.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/TestRunner.java</url>
           <line>14</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/CartSteps.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/CartSteps.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GoogleSteps.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GoogleSteps.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/atf/src/test/java/com/utm/end_game/steps/GoogleSteps.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

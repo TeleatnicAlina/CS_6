@@ -1,13 +1,13 @@
 package com.utm.end_game.steps;
 
 import com.utm.end_game.web_driver_singleton.WebDriverSingleton;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.time.Duration;
 
 import static com.utm.end_game.web_driver_singleton.WebDriverSingleton.getDriver;
@@ -37,5 +37,10 @@ public class GenericActions {
     public static void refreshPage(){
         WebDriver driver = WebDriverSingleton.getDriver();
         driver.navigate().refresh();
+    }
+
+    public static void navigateToUrl(String url) throws AWTException {
+        WebDriver driver = WebDriverSingleton.getDriver();
+        driver.navigate().to(url);
     }
 }

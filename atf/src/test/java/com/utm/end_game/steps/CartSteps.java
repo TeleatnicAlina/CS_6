@@ -19,7 +19,14 @@ public class CartSteps {
 
     @Then("^The following message appears$")
     public void yourShoppingCartIsEmptyMessageAppears(String message) {
-        String methodName = "get" + message;
+        String methodName;
+        if (message.contains("dorit")) {
+             methodName= "get" + "didyoumean";
+        } else {
+           methodName = "get" + message;
+        }
+
         assertThat("assert that message appears", getElementByName(methodName).getText(), containsString(message));
+
     }
 }
