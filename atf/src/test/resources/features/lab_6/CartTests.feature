@@ -9,5 +9,6 @@ Feature: User can add and delete products from cart
     When User clicks on 'cart' 'icon'
     And User delete product from cart
     And User clicks on 'cart' 'icon'
-    Then 'Your shopping cart is empty' message appears
+    Then The following message appears
+      | Your shopping cart is empty |
 

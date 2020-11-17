@@ -7,7 +7,6 @@ import io.cucumber.java.en.When;
 import static com.utm.end_game.AssertThatWrapper.assertThat;
 import static com.utm.end_game.steps.GeneralSteps.getElementByName;
 import static com.utm.end_game.steps.GenericActions.click;
-import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.containsString;
 
 public class CartSteps {
@@ -18,7 +17,7 @@ public class CartSteps {
         click(getElementByName(methodName));
     }
 
-    @Then("{string} message appears")
+    @Then("^The following message appears$")
     public void yourShoppingCartIsEmptyMessageAppears(String message) {
         String methodName = "get" + message;
         assertThat("assert that message appears", getElementByName(methodName).getText(), containsString(message));

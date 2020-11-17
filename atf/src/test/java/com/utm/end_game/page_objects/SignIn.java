@@ -7,6 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 import static com.utm.end_game.web_driver_singleton.WebDriverSingleton.getDriver;
 
 public class SignIn {
+    @FindBy(xpath = "//*[@id=\"myModal\"]/div/div/div[2]/div[1]/form/div[1]/input")
+    private WebElement name;
+    @FindBy(xpath = "//*[@id=\"myModal\"]/div/div/div[2]/div[1]/form/div[2]/input")
+    private WebElement email;
+    @FindBy(xpath = "//*[@id=\"myModal\"]/div/div/div[2]/div[1]/form/input")
+    private WebElement signInButton;
+
     public WebElement getName() {
         return name;
     }
@@ -18,14 +25,6 @@ public class SignIn {
     public WebElement getSignInButton() {
         return signInButton;
     }
-
-    @FindBy(xpath = "//*[@id=\"myModal\"]/div/div/div[2]/div[1]/form/div[1]/input")
-    private WebElement name;
-    @FindBy(xpath = "//*[@id=\"myModal\"]/div/div/div[2]/div[1]/form/div[2]/input")
-    private WebElement email;
-    @FindBy(xpath = "//*[@id=\"myModal\"]/div/div/div[2]/div[1]/form/input")
-    private WebElement signInButton;
-
 
     public SignIn() {
         PageFactory.initElements(getDriver(), this);

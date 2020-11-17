@@ -36,6 +36,7 @@ public class GeneralSteps {
     @When("User enters {string} in {string} field")
     public void enterValueInTheField(String value, String field) {
         String methodName = "get" + field;
+
         enterValue(getElementByName(methodName), value);
     }
 
@@ -137,14 +138,6 @@ public class GeneralSteps {
 
         WebDriver driver = WebDriverSingleton.getDriver();
         driver.navigate().back();
-    }
-
-    @When("User scroll down to the bottom of page")
-    public void userScrollDownToTheBottomOfPage() {
-//        WebDriver driver = WebDriverSingleton.getDriver();
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-//        System.out.println("hi");
     }
 
     @Disabled("CAL-18")
