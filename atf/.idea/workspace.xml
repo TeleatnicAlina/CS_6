@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21cec89d-48e7-4edb-ab4e-38cdc54f62f3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="end-game-squad-atf" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\adoncila\IdeaProjects\end-game-atf\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cAG02mPwycOKTEGWVnwpBR2pbb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Notebook" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adoncila\IdeaProjects\end-game-atf\src\test\resources\drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Scenario: Check SystemAdmin can add new job title with invalid inputs (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sys_admin/negativeAddNewJobTitle.feature" />
+      <option name="GLUE" value="com.endava.end_game.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="end-game-atf" />
+      <option name="NAME_FILTER" value="^Check SystemAdmin can add new job title with invalid inputs$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check SystemAdmin can add new job title with invalid inputs$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check SystemAdmin can add new job title with invalid inputs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check SystemAdmin can do a quick search employee by name" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sys_admin/QuickSearchEmployeeByName.feature" />
+      <option name="GLUE" value="com.endava.end_game.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="end-game-atf" />
+      <option name="NAME_FILTER" value="^Check SystemAdmin can do a quick search employee by name$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check SystemAdmin can do a quick search employee by name$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check SystemAdmin can do a quick search employee by name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check that SystemAdmin can add new work Shift with invalid inputs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sys_admin/NegativeAddNewWorkShift.feature" />
+      <option name="GLUE" value="com.endava.end_game.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="end-game-atf" />
+      <option name="NAME_FILTER" value="^Check that SystemAdmin can add new work Shift with invalid inputs$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check that SystemAdmin can add new work Shift with invalid inputs$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check that SystemAdmin can add new work Shift with invalid inputs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User can change email settings providing valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sys_admin/EmailSettings.feature" />
+      <option name="GLUE" value="com.endava.end_game.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="end-game-atf" />
+      <option name="NAME_FILTER" value="^User can change email settings providing valid data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can change email settings providing valid data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can change email settings providing valid data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="end-game-atf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.endava.end_game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.endava.end_game" />
+      <option name="MAIN_CLASS_NAME" value="com.endava.end_game.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21cec89d-48e7-4edb-ab4e-38cdc54f62f3" name="Default Changelist" comment="" />
+      <created>1589963757192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589963757192</updated>
+    </task>
+    <task id="LOCAL-00001" summary="page object and features bdd">
+      <created>1590174392130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590174392131</updated>
+    </task>
+    <task id="LOCAL-00002" summary="page object and features bdd">
+      <created>1590174957507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590174957507</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Conflicts resolved:Alina+Anna">
+      <created>1590178499874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590178499874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="page object-delete driver" />
+    <MESSAGE value="page object and features bdd" />
+    <MESSAGE value="Conflicts resolved:Alina+Anna" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conflicts resolved:Alina+Anna" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590177484875">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="539" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1590177484875" />
+    <state x="605" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1590178210927">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1590178210927" />
+    <state x="247" y="143" width="994" height="594" key="#xdebugger.evaluate" timestamp="1590071259529">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="247" y="143" width="994" height="594" key="#xdebugger.evaluate/0.0.1600.860@0.0.1600.860" timestamp="1590071259529" />
+    <state x="453" y="24" key="CommitChangelistDialog2" timestamp="1590178494566">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="453" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1590178494566" />
+    <state width="544" height="466" key="DebuggerActiveHint" timestamp="1590072054349">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="544" height="466" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1590072054349" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1590053378781">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1590053378781" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1590054090988">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1590054090988" />
+    <state width="1557" height="230" key="GridCell.Tab.0.bottom" timestamp="1590178252092">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="230" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590178252092" />
+    <state width="1557" height="230" key="GridCell.Tab.0.center" timestamp="1590178252092">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="230" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590178252092" />
+    <state width="1557" height="230" key="GridCell.Tab.0.left" timestamp="1590178252091">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="230" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590178252091" />
+    <state width="1557" height="230" key="GridCell.Tab.0.right" timestamp="1590178252092">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="230" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590178252092" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1590091899071">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590091899071" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1590091899071">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1590091899071" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1590091899071">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1590091899071" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1590091899071">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1590091899071" />
+    <state x="104" y="68" width="1439" height="780" key="MergeDialog" timestamp="1590175993572">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="104" y="68" width="1439" height="780" key="MergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1590175993572" />
+    <state x="512" y="146" key="MultipleFileMergeDialog" timestamp="1590175999283">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="512" y="146" key="MultipleFileMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1590175999283" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590178540793">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590178540793" />
+    <state width="808" height="438" key="XDebugger.FullValuePopup" timestamp="1590071407880">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="808" height="438" key="XDebugger.FullValuePopup/0.0.1600.860@0.0.1600.860" timestamp="1590071407880" />
+    <state x="495" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1590131634173">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1590131634173" />
+    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589997535263">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1589997535263" />
+    <state x="634" y="344" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1590176010005">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="634" y="344" key="git4idea.rebase.GitUnstructuredEditor/0.0.1600.860@0.0.1600.860" timestamp="1590176010005" />
+    <state x="589" y="330" key="git4idea.ui.GitStashDialog" timestamp="1590174765875">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="589" y="330" key="git4idea.ui.GitStashDialog/0.0.1600.860@0.0.1600.860" timestamp="1590174765875" />
+    <state x="547" y="278" key="git4idea.ui.GitUnstashDialog" timestamp="1589997865871">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="547" y="278" key="git4idea.ui.GitUnstashDialog/0.0.1600.860@0.0.1600.860" timestamp="1589997865871" />
+    <state x="552" y="351" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1590060412138">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="552" y="351" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1590060412138" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1590177348756">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1590177348756" />
+    <state x="522" y="342" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590054202074">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="522" y="342" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1600.860@0.0.1600.860" timestamp="1590054202074" />
+  </component>
+</project>
